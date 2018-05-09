@@ -1,0 +1,44 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>trng.webapp.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>customerServlet</servlet-name>
+  	<display-name>customerServlet</display-name>
+  	<description></description>
+  	<servlet-class>trng.webapp.customerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>orders</servlet-name>
+  	<display-name>orders</display-name>
+  	<description></description>
+  	<servlet-class>trng.webapp.orders</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>newOrderServlet</servlet-name>
+  	<display-name>newOrderServlet</display-name>
+  	<description></description>
+  	<servlet-class>trng.webapp.newOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>customerServlet</servlet-name>
+  	<url-pattern>/customerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>newOrderServlet</servlet-name>
+  	<url-pattern>/newOrderServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
